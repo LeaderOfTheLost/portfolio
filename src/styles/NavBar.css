@@ -1,0 +1,33 @@
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  align-items: center;
+  margin: 0 5em;
+  font-size: 1.3em;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--main-color);
+  transition: font-weight 200ms, text-shadow 200ms;
+}
+nav a:hover {
+  font-weight: 700;
+}
+
+.nav-bar-line {
+  width: 90vw;
+  height:.5em;
+  margin: 0 auto;
+  background-color: var(--main-btn-color);
+}
+

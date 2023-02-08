@@ -1,0 +1,24 @@
+.footer-icon {
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 2em;
+  padding: .3em;
+  color: var(--main-icon-color);
+  transition: background-color 400ms, color 400ms, height 400ms, width 400ms;
+}
+.footer-icon:hover {
+  color: var(--main-bg-color);
+  background-color: var(--main-btn-color);
+  height: 5em;
+  width: 5em;
+}
+
+
+#footer {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+  scroll-margin-top: 10vh;
+}

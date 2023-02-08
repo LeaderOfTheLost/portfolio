@@ -1,12 +1,44 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* color schemes */
+:root {
+  --main-bg-color: rgb(179, 255, 208);
+  --main-color: rgb(0, 0, 0);
+  --main-box-shadow: 0em 0em 2em rgba(0, 0, 0, 0.747);
+  --main-border: .2em solid rgba(0, 153, 77, 0.745);
+  --main-btn-color: rgb(0, 150, 75);
+  --main-icon-color: rgba(0, 153, 77, 0.745);
+}
+.dark {
+  --main-bg-color: rgb(61, 0, 0);
+  --main-color: rgb(206, 206, 206);
+  --main-box-shadow: 0em 0em 2em rgba(255, 57, 57, 0.897);
+  --main-border: .2em solid rgba(255, 57, 57, 0.745);
+  --main-btn-color: rgba(255, 57, 57, 0.745);
+  --main-icon-color: rgb(197, 52, 52);
+}
+
+* {
+  background-color: var(--main-bg-color);
   margin: 0;
   padding: 0;
-  background: url('./assets/images/background.jpg') no-repeat center;
-  background-size: 100%;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  transition: 400ms;
 }
-@media screen and (min-width: 480px) {
-  body {
-    background: url('./assets/images/background.jpg') ;
-  background-size: cover;
-  }
+
+html {
+  scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+

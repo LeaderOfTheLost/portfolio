@@ -1,0 +1,19 @@
+#projects {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 3em 0;
+  line-height: 1.5;
+  scroll-margin-top: 12vh;
+}
+
+#projects * {
+  max-width: 100em;
+}
+
+.project-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
