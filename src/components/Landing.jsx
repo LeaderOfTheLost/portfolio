@@ -3,7 +3,6 @@ import profilePicture from "../assets/project-images/portfolio-pic.jpg"
 import resume from "../assets/Resume.pdf"
 import { GoMarkGithub } from "react-icons/go"
 import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai"
-// import { Icon } from "@iconify/react"
 
 const Landing = () => {
   return (

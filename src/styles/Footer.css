@@ -19,6 +19,6 @@
 #footer {
   display: flex;
   justify-content: center;
-  margin: 10%;
-  scroll-margin-top: 10vh;
+  margin: 5em;
+  scroll-margin-top: 10vh; 
 }

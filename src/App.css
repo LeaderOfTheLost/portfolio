@@ -18,14 +18,64 @@ h1 {
   border-bottom: .1em solid var(--main-color);
 }
 
-.dmBtn {
-  height: 2em;
-  width: 2em;
+.themeBtns {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: left;
+  align-items: left;
+  background: transparent;
+}
+.themeBtns button {
+  margin: .5em;
   border-radius: 50%;
-  border: .2em solid white;
-  background-color: var(--main-btn-color);
-  margin: 1em 2em;
-  position: relative;
-  left: 95%;
-  text-align: center;
+}
+.themeIcon {
+  height: 2.5em;
+  width: 2.5em;
+  margin: 0 .5em;
+  border-radius: 50%;
+}
+.fireBtn {
+  height: 4em;
+  width: 4em;
+  color:red;
+}
+.fire .fireBtn {
+  box-shadow: 0em 0em 1em red;
+}
+.waterBtn {
+  height: 4em;
+  width: 4em;
+  color:blue;
+}
+.water .waterBtn {
+  box-shadow: 0em 0em 1em blue;
+}
+.earthBtn {
+  height: 4em;
+  width: 4em;
+  color: green;
+}
+.earth .earthBtn {
+  box-shadow: 0em 0em 1em green;
+}
+.airBtn {
+  height: 4em;
+  width: 4em;
+  color: white;
+}
+.air .airBtn {
+  box-shadow: 0em 0em 1em rgb(109, 109, 109);
+  color: rgba(109, 109, 109, 0.432);
+}
+
+
+@media screen and (max-width: 540px) {
+  .themeBtns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+  }
 }

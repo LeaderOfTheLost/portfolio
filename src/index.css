@@ -2,20 +2,44 @@
 
 /* color schemes */
 :root {
-  --main-bg-color: rgb(179, 255, 208);
+  --main-bg-color: rgb(0, 0, 0);
+  --main-color: rgba(255, 255, 255, 0.800);
+  --main-box-shadow: 0em 0em 2em rgba(125, 125, 125, 0.897);
+  --main-border: .2em solid rgba(73, 73, 73, 0.745);
+  --main-btn-color: rgb(125, 125, 125);
+  --main-icon-color: rgba(125, 125, 125);
+}
+.fire {
+  --main-bg-color: rgb(60, 0, 0);
+  --main-color: rgb(206, 206, 206);
+  --main-box-shadow: 0em 0em 2em rgba(255, 60, 60, 0.897);
+  --main-border: .2em solid rgba(255, 60, 60, 0.745);
+  --main-btn-color: rgb(255, 60, 60);
+  --main-icon-color: rgb(195, 50, 50);
+}
+.water {
+  --main-bg-color: rgb(0, 0, 60);
+  --main-color: rgb(206, 206, 206);
+  --main-box-shadow: 0em 0em 2em rgba(60, 60, 255, 0.897);
+  --main-border: .2em solid rgba(60, 60, 255, 0.745);
+  --main-btn-color: rgb(60, 60, 255);
+  --main-icon-color: rgb(50, 50, 195);
+}
+.earth {
+  --main-bg-color: rgb(0, 60, 0);
+  --main-color: rgb(206, 206, 206);
+  --main-box-shadow: 0em 0em 2em rgba(60, 255, 60, 0.897);
+  --main-border: .2em solid rgba(60, 195, 60, 0.745);
+  --main-btn-color: rgb(60, 195, 60);
+  --main-icon-color: rgb(50, 195, 50);
+}
+.air {
+  --main-bg-color: rgb(179, 255, 251);
   --main-color: rgb(0, 0, 0);
   --main-box-shadow: 0em 0em 2em rgba(0, 0, 0, 0.747);
-  --main-border: .2em solid rgba(0, 153, 77, 0.745);
-  --main-btn-color: rgb(0, 150, 75);
-  --main-icon-color: rgba(0, 153, 77, 0.745);
-}
-.dark {
-  --main-bg-color: rgb(61, 0, 0);
-  --main-color: rgb(206, 206, 206);
-  --main-box-shadow: 0em 0em 2em rgba(255, 57, 57, 0.897);
-  --main-border: .2em solid rgba(255, 57, 57, 0.745);
-  --main-btn-color: rgba(255, 57, 57, 0.745);
-  --main-icon-color: rgb(197, 52, 52);
+  --main-border: .2em solid rgba(0, 153, 153, 0.745);
+  --main-btn-color: rgb(0, 150, 137);
+  --main-icon-color: rgba(0, 148, 153, 0.745);
 }
 
 * {
@@ -27,7 +51,7 @@
   box-sizing: border-box;
   list-style: none;
   font-family: 'Roboto', sans-serif;
-  transition: 400ms;
+  transition: 600ms;
 }
 
 html {
