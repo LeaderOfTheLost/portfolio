@@ -49,7 +49,7 @@ h1 {
   color:blue;
 }
 .water .waterBtn {
-  box-shadow: 0em 0em 1em blue;
+  box-shadow: 0em 0em 1em rgb(10, 10, 255);
 }
 .earthBtn {
   height: 4em;
