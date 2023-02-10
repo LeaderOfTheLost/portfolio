@@ -39,7 +39,7 @@ const Projects = () => {
           image={mtswSS}
           description="Created a MERN stack application that allows users to create a list of their favorite places to travel and share reviews of those places with other users."
           gitHubRepo="https://github.com/LeaderOfTheLost/more_than_seven_wonders"
-          deployedSite="https://more-than-seven-wonders.herokuapp.com/"
+          deployedSite="https://mtsw.herokuapp.com/"
           icons={[
             <DiHtml5 className="icon" />,
             <DiCss3Full className="icon" />,
