@@ -1,6 +1,6 @@
-import "../styles/Footer.css"
-import { GoMarkGithub } from "react-icons/go"
-import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai"
+import '../styles/Footer.css'
+import { GoMarkGithub } from 'react-icons/go'
+import { AiFillLinkedin, AiOutlineMail } from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -19,11 +19,7 @@ const Footer = () => {
       >
         <AiFillLinkedin className="footer-icon" />
       </a>
-      <a
-        href={`mailto: ${process.env.REACT_APP_EMAIL}`}
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href={`mailto: doubledc92@gmail.com`} target="_blank" rel="noreferrer">
         <AiOutlineMail className="footer-icon" />
       </a>
     </section>

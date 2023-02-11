@@ -1,8 +1,8 @@
-import "../styles/Landing.css"
-import profilePicture from "../assets/project-images/portfolio-pic.jpg"
-import resume from "../assets/Resume.pdf"
-import { GoMarkGithub } from "react-icons/go"
-import { AiFillLinkedin, AiOutlineMail } from "react-icons/ai"
+import '../styles/Landing.css'
+import profilePicture from '../assets/project-images/portfolio-pic.jpg'
+import resume from '../assets/Resume.pdf'
+import { GoMarkGithub } from 'react-icons/go'
+import { AiFillLinkedin, AiOutlineMail } from 'react-icons/ai'
 
 const Landing = () => {
   return (
@@ -39,7 +39,7 @@ const Landing = () => {
           <AiFillLinkedin className="landing-icon" />
         </a>
         <a
-          href={`mailto: ${process.env.REACT_APP_EMAIL}`}
+          href={`mailto: doubledc92@gmail.com`}
           target="_blank"
           rel="noreferrer"
         >
